@@ -9,10 +9,10 @@ cd "$(dirname "$0")"
 FILES=exe/*
 
 for f in $(dirname "$0")/exe/*;  do 
-  cat paul.png > $f
+  python protect.py $f
+  new_name=${f%.png}
+  echo $new_name
+  #mv $f $new_name.mask.png
+
 done
-cdir="$(dirname "$0")"
-
-cd "$(dirname "$0")"
-
 
