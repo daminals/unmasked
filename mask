@@ -12,8 +12,9 @@ FILES=exe/*
 for f in $(dirname "$0")/exe/*;  do 
   python protect.py $f
   new_name=${f%.png}
+  new_name=${new_name}.mask.png
   echo $new_name
-  #mv $f $new_name.mask.png
+  mv $f $new_name
 
 done
 
