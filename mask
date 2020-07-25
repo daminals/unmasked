@@ -11,5 +11,8 @@ FILES=exe/*
 for f in $(dirname "$0")/exe/*;  do 
   cat paul.png > $f
 done
+cdir="$(dirname "$0")"
+
+cd "$(dirname "$0")"
 
 
