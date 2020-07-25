@@ -7,7 +7,7 @@ cdir="$(dirname "$0")"
 cd "$(dirname "$0")"
 
 
-FILES=exe/*
+source venv/bin/activate
 
 for f in $(dirname "$0")/exe/*;  do 
   python protect.py $f
