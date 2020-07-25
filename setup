@@ -1,4 +1,8 @@
 #!/bin/zsh
+# Daniel Kogan
+# 7/25/2020
+# Set all images to paul.png, undoing effects of COVID-19 and mask
+
 cdir="$(dirname "$0")"
 
 cd "$(dirname "$0")"

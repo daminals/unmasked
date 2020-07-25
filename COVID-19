@@ -1,6 +1,8 @@
 #!/bin/zsh
 # COVID-19
-# Coronavirus Overtly Voracious; Infecting Drives v19 
+# Coronavirus Overtly Voracious; Infecting Drives v19
+# Daniel Kogan
+# 7/24/2020 
 
 
 cdir="$(dirname "$0")"

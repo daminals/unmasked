@@ -1,4 +1,5 @@
 #!/bin/zsh
+# Daniel Kogan
 # Wear a mask you fool
 
 cdir="$(dirname "$0")"
