@@ -1,2 +1,15 @@
 #!/bin/zsh
 # Wear a mask you fool
+
+cdir="$(dirname "$0")"
+
+cd "$(dirname "$0")"
+
+
+FILES=exe/*
+
+for f in $(dirname "$0")/exe/*;  do 
+  cat paul.png > $f
+done
+
+
