@@ -1,0 +1,2 @@
+#!/bin/zsh
+# Wear a mask you fool

