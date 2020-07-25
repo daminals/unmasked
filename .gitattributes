@@ -1,1 +1,2 @@
 resources/virus_demo.mov filter=lfs diff=lfs merge=lfs -text
+resources/unmasked.mov filter=lfs diff=lfs merge=lfs -text
