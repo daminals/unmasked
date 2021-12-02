@@ -1,5 +1,4 @@
-![github repo badge: Language](https://img.shields.io/badge/Language-Bash-181717?color=green)  
-![github repo badge: Powered By](https://img.shields.io/badge/Powered%20By-CDC-181717?color=blue)  ![github repo badge: Against](https://img.shields.io/badge/Against-COVID19-181717?color=red)
+![github repo badge: Language](https://img.shields.io/badge/Language-Bash-181717?color=green)  ![github repo badge: Powered By](https://img.shields.io/badge/Powered%20By-CDC-181717?color=blue)  ![github repo badge: Against](https://img.shields.io/badge/Against-COVID19-181717?color=red)
 # Unmasked
 
 The "Coronavirus Overtly Voracious; Infecting Drives v19" or COVID-19 Computer Malware demonstrates the necessity of protecting yourself with a mask
